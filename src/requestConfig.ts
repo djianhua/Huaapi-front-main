@@ -28,8 +28,6 @@ export const requestConfig: RequestConfig = {
   baseURL: 'http://服务器ip:9092',
   // baseURL: 'http://localhost:9092',
   withCredentials: true,
-
-
   // 请求拦截器
   requestInterceptors: [
     (config: RequestOptions) => {
